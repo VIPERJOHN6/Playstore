@@ -1,0 +1,60 @@
+nav ul li{
+    display: flex;
+    text-decoration: none;
+}
+/* .install {
+    display: flex;
+    justify-content: space-between;
+} */
+
+@media screen and (max-width: 800px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav {
+        padding: 1%;
+    }
+    .logo {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav img {
+        width: 9%;
+    }
+    nav ul{
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    section {
+        padding: 3%;
+    }
+    section h1 {
+        font-family: sans-serif;
+    }
+    iframe {
+        padding-top: 2%;
+        width: 99%;
+        height: 31%;
+        border-radius: 10%; 
+    }
+    .install {
+        justify-content: space-around;
+        display: flex;
+        padding-top: 2%;
+    }
+    .install img {
+        width: 15%;
+        border-radius: 30%;
+    }
+    .btn{
+        padding: 1%;
+    }
+    button{
+        border-radius: 40%;
+        padding: 9%;
+    }
+
+}
