@@ -41,7 +41,7 @@ nav ul li{
         border-radius: 10%; 
     }
     .install {
-        justify-content: space-around;
+        justify-content: space-between;
         display: flex;
         padding-top: 2%;
     }
@@ -49,12 +49,45 @@ nav ul li{
         width: 15%;
         border-radius: 30%;
     }
+    .blood{
+        display: flex;
+        gap: 2%;
+    }
     .btn{
         padding: 1%;
     }
     button{
         border-radius: 40%;
         padding: 9%;
+    }
+    .sponsored {
+        display: flex;
+        justify-content: space-between;
+    }
+    .sponsored img{
+        width: 8%;
+    }
+    .applications {
+        
+    }
+    .application1{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3%;
+    }
+    .application1 img {
+        width: 15%;
+        border-radius: 10%;
+    }
+    .footer {
+        border-top: 1px solid black;
+    }
+    .footer ul li a{
+        text-decoration: none;
+        justify-content: space-between;
+        color: black;
+        font-family: sans-serif;
+        font-weight: 300;
     }
 
 }
